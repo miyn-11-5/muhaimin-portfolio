@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#171a1c">
+    <meta
+      name="description"
+      content="The portfolio desktop of Muhaimin, UI/UX designer and member of The Bit-tles."
+    >
+    <title>Muhaimin.exe — Portfolio Desktop</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="desktop" aria-label="Muhaimin's portfolio desktop">
+      <header class="topbar">
+        <a class="brand" href="#" aria-label="Muhaimin portfolio home">
+          <span class="brand-mark" aria-hidden="true">M.</span>
+          <span>MUHAIMIN / PORTFOLIO</span>
+        </a>
+        <p class="topbar-note">PRODUCT DESIGN · INTERACTION · VISUAL SYSTEMS</p>
+        <div class="system-status">
+          <span class="status-light" aria-hidden="true"></span>
+          <span>AVAILABLE FOR COLLAB</span>
+          <span class="status-time" id="clock">00:00</span>
+        </div>
+      </header>
+
+      <section class="workspace" aria-label="Desktop workspace">
+        <section class="intro-card" aria-labelledby="intro-title">
+          <div class="intro-topline">
+            <span class="tiny-label">PORTFOLIO · 2026</span>
+            <span class="pill">AVAILABLE FOR COLLAB</span>
+          </div>
+          <p class="eyebrow">PRODUCT DESIGNER &amp; UI/UX DESIGNER</p>
+          <h1 id="intro-title">Muhaimin<span class="title-period">.</span></h1>
+          <p class="intro-copy">
+            I shape thoughtful digital experiences, turning complex ideas into
+            clear, useful products.
+          </p>
+          <button class="open-work-button" type="button" data-open-folder="projects">
+            <span>EXPLORE SELECTED WORK</span><span aria-hidden="true">↗</span>
+          </button>
+          <div class="intro-footer">
+            <span>THOUGHTFUL BY DESIGN.</span>
+            <span>SELECT A FOLDER TO EXPLORE.</span>
+          </div>
+        </section>
+
+        <nav class="folder-grid" aria-label="Portfolio folders">
+          <button class="folder" type="button" data-open-folder="certificates">
+            <span class="folder-art folder-pink" aria-hidden="true">
+              <svg viewBox="0 0 64 52"><path d="M5 11a5 5 0 0 1 5-5h17l6 7h21a5 5 0 0 1 5 5v25a5 5 0 0 1-5 5H10a5 5 0 0 1-5-5z"/><path class="folder-paper" d="M16 20h31M16 27h25M16 34h17"/></svg>
+              <span class="folder-sticker">01</span>
+            </span>
+            <span class="folder-name">CERTS</span>
+            <span class="folder-caption">proof &amp; practice</span>
+          </button>
+          <button class="folder" type="button" data-open-folder="background">
+            <span class="folder-art folder-blue" aria-hidden="true">
+              <svg viewBox="0 0 64 52"><path d="M5 11a5 5 0 0 1 5-5h17l6 7h21a5 5 0 0 1 5 5v25a5 5 0 0 1-5 5H10a5 5 0 0 1-5-5z"/><path class="folder-paper" d="M16 20h31M16 27h25M16 34h17"/></svg>
+              <span class="folder-sticker">02</span>
+            </span>
+            <span class="folder-name">BACKGROUND</span>
+            <span class="folder-caption">the human bit</span>
+          </button>
+          <button class="folder" type="button" data-open-folder="achievements">
+            <span class="folder-art folder-yellow" aria-hidden="true">
+              <svg viewBox="0 0 64 52"><path d="M5 11a5 5 0 0 1 5-5h17l6 7h21a5 5 0 0 1 5 5v25a5 5 0 0 1-5 5H10a5 5 0 0 1-5-5z"/><path class="folder-paper" d="M16 20h31M16 27h25M16 34h17"/></svg>
+              <span class="folder-sticker">03</span>
+            </span>
+            <span class="folder-name">ACHIEVEMENTS</span>
+            <span class="folder-caption">little big wins</span>
+          </button>
+          <button class="folder" type="button" data-open-folder="projects">
+            <span class="folder-art folder-orange" aria-hidden="true">
+              <svg viewBox="0 0 64 52"><path d="M5 11a5 5 0 0 1 5-5h17l6 7h21a5 5 0 0 1 5 5v25a5 5 0 0 1-5 5H10a5 5 0 0 1-5-5z"/><path class="folder-paper" d="M16 20h31M16 27h25M16 34h17"/></svg>
+              <span class="folder-sticker">04</span>
+            </span>
+            <span class="folder-name">PROJECTS</span>
+            <span class="folder-caption">things I made</span>
+          </button>
+          <button class="folder" type="button" data-open-folder="stack">
+            <span class="folder-art folder-green" aria-hidden="true">
+              <svg viewBox="0 0 64 52"><path d="M5 11a5 5 0 0 1 5-5h17l6 7h21a5 5 0 0 1 5 5v25a5 5 0 0 1-5 5H10a5 5 0 0 1-5-5z"/><path class="folder-paper" d="M16 20h31M16 27h25M16 34h17"/></svg>
+              <span class="folder-sticker">05</span>
+            </span>
+            <span class="folder-name">MY STACK</span>
+            <span class="folder-caption">tools of the trade</span>
+          </button>
+          <button class="folder" type="button" data-open-folder="contact">
+            <span class="folder-art folder-lilac" aria-hidden="true">
+              <svg viewBox="0 0 64 52"><path d="M5 11a5 5 0 0 1 5-5h17l6 7h21a5 5 0 0 1 5 5v25a5 5 0 0 1-5 5H10a5 5 0 0 1-5-5z"/><path class="folder-paper" d="M16 20h31M16 27h25M16 34h17"/></svg>
+              <span class="folder-sticker">06</span>
+            </span>
+            <span class="folder-name">CONTACT</span>
+            <span class="folder-caption">say hello</span>
+          </button>
+        </nav>
+
+        <section class="window" id="folder-window" role="dialog" aria-modal="true" aria-labelledby="window-title" hidden>
+          <div class="window-bar">
+            <div class="window-controls" aria-label="Window controls">
+              <button class="window-control close-control" type="button" aria-label="Close folder window"></button>
+              <span class="window-control minimize-control" aria-hidden="true"></span>
+              <span class="window-control expand-control" aria-hidden="true"></span>
+            </div>
+            <span class="window-path"><span aria-hidden="true">▰</span> PORTFOLIO <span aria-hidden="true">/</span> <span id="window-path-name">PROJECTS</span></span>
+            <span class="window-index">WINDOW_01</span>
+          </div>
+          <div class="window-content" id="window-content" tabindex="-1">
+            <p class="window-kicker">DIRECTORY CONTENTS</p>
+            <h2 id="window-title">Projects</h2>
+            <div id="folder-details"></div>
+          </div>
+        </section>
+
+        <footer class="taskbar">
+          <div class="taskbar-start">
+            <span class="taskbar-logo" aria-hidden="true">M.</span>
+            <span class="taskbar-label">PORTFOLIO DESKTOP</span>
+          </div>
+          <div class="taskbar-center" aria-hidden="true">
+            <button class="dock-icon dock-home" type="button" aria-label="Close window and return to desktop">M</button>
+            <button class="dock-icon dock-folder" type="button" aria-label="Open projects folder">▰</button>
+            <button class="dock-icon dock-mail" type="button" aria-label="Open contact folder">✉</button>
+          </div>
+          <span class="taskbar-hint">SELECTED WORK · 2026</span>
+        </footer>
+      </section>
+    </main>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
