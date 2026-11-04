@@ -1449,6 +1449,16 @@ h1,
   background: #d4e5e8;
 }
 
+.intro-card h1 {
+  font-size: clamp(30px, 3.2vw, 40px);
+  line-height: 1.12;
+  letter-spacing: -0.07em;
+}
+
+.intro-card .open-work-button {
+  margin-top: 24px;
+}
+
 .window {
   border: 1px solid #aeb9b6;
   border-radius: 7px;

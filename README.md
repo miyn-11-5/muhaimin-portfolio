@@ -7,13 +7,13 @@
 
 ## Portfolio Website
 
-The root `index.html` is a responsive, neo-brutalist portfolio desktop for Muhaimin. Open it in a browser to explore the interactive folders. The site uses plain HTML, CSS, and JavaScript with no build step. Replace the certificates and contact placeholders with personal details before publishing.
+The root `index.html` is a responsive portfolio desktop for Muhammad Muhaimin bin Mazlan, a cybersecurity student. Open it in a browser to explore the interactive folders. The site uses plain HTML, CSS, and JavaScript with no build step. Replace the certificates and contact placeholders with personal details before publishing.
 
 ---
 
 ## 📋 Team Members ("The Bit-tles")
 * **Danish Firdaus** - Product Lead
-* **Muhaimin** - UI/UX Designer
+* **Muhammad Muhaimin bin Mazlan** - Cybersecurity Student
 * **Haqemy** - Tech Lead & Architect
 * **Ben Mudassir** - Pitch Lead & Storyteller
 

@@ -15,19 +15,18 @@ const folderContent = {
     html: `
       <article class="detail-card">
         <span class="detail-label">THE HUMAN BIT</span>
-        <h3>Designer, listener, idea untangler.</h3>
+        <h3>Cybersecurity student</h3>
         <p>
-          I’m Muhaimin, a UI/UX designer on The Bit-tles team. I care about clear
-          visual hierarchy, accessible interactions, and making digital tools
-          feel supportive instead of stressful.
+          I’m Muhammad Muhaimin bin Mazlan, a cybersecurity student building my
+          knowledge of how to help protect systems and information.
         </p>
       </article>
       <article class="detail-card">
         <span class="detail-label">CURRENTLY EXPLORING</span>
-        <h3>Designing for everyday wellbeing</h3>
+        <h3>Cybersecurity and digital safety</h3>
         <p>
-          I’m interested in how thoughtful product experiences can make
-          complicated, busy days feel a little easier to manage.
+          I’m learning how security can help keep people, systems, and
+          information safer online.
         </p>
       </article>
     `,
@@ -85,15 +84,15 @@ const folderContent = {
     title: "Tools & technologies",
     html: `
       <article class="detail-card">
-        <span class="detail-label">DESIGN PRACTICE</span>
-        <h3>From rough idea to clickable flow</h3>
+        <span class="detail-label">CYBERSECURITY STUDIES</span>
+        <h3>Building my knowledge of digital security</h3>
         <p>
-          UI/UX design, interface design, prototyping, user flows, and
-          responsive visual systems.
+          I’m studying cybersecurity and exploring how systems, networks, and
+          information can be protected.
         </p>
         <div class="tag-list">
-          <span class="tag">UI/UX</span><span class="tag">USER FLOWS</span>
-          <span class="tag">PROTOTYPING</span><span class="tag">VISUAL DESIGN</span>
+          <span class="tag">CYBERSECURITY</span><span class="tag">NETWORKS</span>
+          <span class="tag">DIGITAL SAFETY</span>
         </div>
       </article>
       <article class="detail-card">
